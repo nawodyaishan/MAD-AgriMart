@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menu_home">
+
+    <fragment
+        android:id="@+id/menu_categories"
+        android:name="lk.sltc.agrimarket.CategoriesFragment"
+        android:label="Categories"
+        tools:layout="@layout/fragment_categories" />
+    <fragment
+        android:id="@+id/menu_settings"
+        android:name="lk.sltc.agrimarket.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/menu_logout"
+        android:name="lk.sltc.agrimarket.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+    <activity
+        android:id="@+id/menu_cart"
+        android:name="lk.sltc.agrimarket.CartActivity"
+        android:label="activity_cart"
+        tools:layout="@layout/activity_cart" />
+    <fragment
+        android:id="@+id/menu_home"
+        android:name="lk.sltc.agrimarket.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <activity
+        android:id="@+id/menu_search"
+        android:name="lk.sltc.agrimarket.SearchProductActivity"
+        android:label="activity_search_product"
+        tools:layout="@layout/activity_search_product" />
+</navigation>

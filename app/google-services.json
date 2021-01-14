@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "202382186168",
+    "firebase_url": "https://agri-market-fa2fb.firebaseio.com",
+    "project_id": "agri-market-fa2fb",
+    "storage_bucket": "agri-market-fa2fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202382186168:android:f608cd0be3d352dae0c64d",
+        "android_client_info": {
+          "package_name": "lk.sltc.agrimarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202382186168-tdl07fe2b8upq634u120epjp45sc18m8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lk.sltc.agrimarket",
+            "certificate_hash": "c4c328a2be05a254f9e102441cf8a2303ebed493"
+          }
+        },
+        {
+          "client_id": "202382186168-ub5hafbthnj4lamgsr1k17clo8ufb4k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUEd5QZQ_nB5-jvXRgOJc0jY6f4t2VhqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202382186168-ub5hafbthnj4lamgsr1k17clo8ufb4k2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

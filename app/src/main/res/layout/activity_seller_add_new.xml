@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sellers.SellerAddNewActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="80dp">
+
+        <ImageView
+            android:id="@+id/vegitables"
+            android:layout_width="105dp"
+            android:layout_height="100dp"
+            android:src="@drawable/vegitables" />
+
+        <ImageView
+            android:id="@+id/fruits"
+            android:layout_width="105dp"
+            android:layout_height="100dp"
+            android:src="@drawable/fruits" />
+
+        <ImageView
+            android:id="@+id/seeds"
+            android:layout_width="105dp"
+            android:layout_height="100dp"
+            android:src="@drawable/seeds" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_category_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_category_layout1"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="80dp">
+
+        <ImageView
+            android:id="@+id/fertilizer"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:src="@drawable/fertilizer" />
+
+        <ImageView
+            android:id="@+id/equipments"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:src="@drawable/equipments" />
+
+    </LinearLayout>
+
+</RelativeLayout>
